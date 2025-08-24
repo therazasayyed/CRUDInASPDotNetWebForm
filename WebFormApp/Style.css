@@ -1,0 +1,74 @@
+﻿body {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Full height flexbox */
+.center-container {
+    display: flex;
+    justify-content: center; /* Horizontal center */
+    align-items: center; /* Vertical center */
+    height: 100vh; /* Full viewport height */
+}
+
+.login-box {
+    width: 300px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background: #f9f9f9;
+    box-shadow: 0px 4px 8px rgba(0,0,0,0.15);
+}
+
+h3 {
+    text-align: center;
+}
+
+/* Form group (label + input) */
+.form-group {
+    margin-bottom: 15px;
+    text-align: center; /* Centers the textbox */
+}
+
+.form-label {
+    display: block;
+    text-align: left;
+    margin-bottom: 5px;
+    font-weight: bold;
+    margin-left: 8px;
+}
+
+.input-box {
+    padding: 6px;
+    width: 90%;
+}
+
+.buttonAlign {
+    padding: 6px;
+    width: 100px;
+}
+
+.lblAlign {
+    margin-left: 8px;
+}
+
+.fileUploadAlign {
+    margin-right: 30px;
+}
+
+.userInfo-box {
+    width: 750px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background: #f9f9f9;
+    box-shadow: 0px 4px 8px rgba(0,0,0,0.15);
+}
+
+.left-container {
+    display: flex;
+    justify-content: center; /* Horizontal center */
+    align-items: center; /* Vertical center */
+    height: 100vh; /* Full viewport height */
+}
